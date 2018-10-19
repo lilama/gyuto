@@ -19,19 +19,66 @@
 
 
 ## Back-end
-- **Admin Login:** User | Pwd
+- **Admin Login:** 
+    1. User 
+    1. Pwd
 
-- **Add Video:** Title (FR) / Title (EN) | Type (select) | Citation (FR) / Citation (EN) | Légende (FR) / Légende (EN) | URL video | Gif | Duration
+- **Add Video:** 
+    1. Title:
+        - FR 
+        - EN
+    1. Type (select) 
+    1. Citation:
+        - FR 
+        - EN
+    1. Légende:
+        - FR 
+        - EN 
+    1. URL video 
+    1. Gif 
+    1. Duration
 
-- **Add Event:** Title (FR) / Title (EN) | Date -> *Convert to text (FR / EN)* | Hour -> *Convert to text (FR / EN)* | Lieu | Description (FR) / Description (EN) | URL page event
+- **Add Event:** 
+    1. Title:
+        - FR 
+        - EN
+    1. Date -> *Convert to text (FR / EN)* 
+    1. Hour -> *Convert to text (FR / EN)* 
+    1. Lieu 
+    1. Description:
+        - FR 
+        - EN
+    1. URL page event
 
-- **Add Images:** Galerie Name (FR) / Galerie Name (EN) | Date (select month + year) | Galerie Cover (img) | Galerie Images -> For each: Title (FR) / Title (EN)
+- **Add Images:** 
+    1. Galerie Name:
+        - FR 
+        - EN
+    1. Date (select month + year) 
+    1. Galerie Cover (img) 
+    1. Galerie Images:
+        - Image
+        - FR 
+        - EN
 
-- **Add Music**: Video (URL) | Title (FR) / Title (EN) | Description: Text + Images (FR) / Description: Text + Images (EN) | Add Music(+): Title + Upload mp3 | Add Album (+) : Image + URL (commander) 
+- **Add Music**: 
+    1. Video (URL) 
+    1. Title:
+        - FR 
+        - EN
+    1. Description: 
+        - Images
+        - Texte: 
+            - FR
+            - EN
+    1. Add Music(+): 
+        - Title
+        - Upload mp3 
+    1. Add Album (+): 
+     - Image 
+     - URL (commander) 
 
 - **Add Info**: *coming soon*
-
-
 
 
 ## Technologies
