@@ -19,9 +19,9 @@
 
 
 ## Back-end
-- **Admin Login:** 
-    1. User 
-    2. Pwd
+1. **Admin Login:** 
+⋅⋅1. User 
+⋅⋅1. Pwd
 
 - **Add Video:** 
     1. Title:
@@ -75,8 +75,8 @@
         - Title
         - Upload mp3 
     5. Add Album (+): 
-     - Image 
-     - URL (commander) 
+        - Image 
+        - URL (commander) 
 
 - **Add Info**: *coming soon*
 
