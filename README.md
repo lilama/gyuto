@@ -19,62 +19,62 @@
 
 
 ## Back-end
-1. **Admin Login:** 
-    1. User 
-    1. Pwd
+- **Admin Login:** 
+    - User 
+    - Pwd
 
 - **Add Video:** 
-    1. Title:
+    - Title:
         - FR 
         - EN
-    2. Type (select) 
-    3. Citation:
+    - Type (select) 
+    - Citation:
         - FR 
         - EN
-    4. Légende:
+    - Légende:
         - FR 
         - EN 
-    5. URL video 
-    6. Gif 
-    7. Duration
+    - URL video 
+    - Gif 
+    - Duration
 
 - **Add Event:** 
-    1. Title:
+    - Title:
         - FR 
         - EN
-    2. Date -> *Convert to text (FR / EN)* 
-    3. Hour -> *Convert to text (FR / EN)* 
-    4. Lieu 
-    5. Description:
+    - Date -> *Convert to text (FR / EN)* 
+    - Hour -> *Convert to text (FR / EN)* 
+    - Lieu 
+    - Description:
         - FR 
         - EN
-    6. URL page event
+    - URL page event
 
 - **Add Images:** 
-    1. Galerie Name:
+    - Galerie Name:
         - FR 
         - EN
-    2. Date (select month + year) 
-    3. Galerie Cover (img) 
-    4. Galerie Images:
+    - Date (select month + year) 
+    - Galerie Cover (img) 
+    - Galerie Images:
         - Image
         - FR 
         - EN
 
 - **Add Music**: 
-    1. Video (URL) 
-    2. Title:
+    - Video (URL) 
+    - Title:
         - FR 
         - EN
-    3. Description: 
+    - Description: 
         - Images
         - Texte: 
             - FR
             - EN
-    4. Add Music(+): 
+    - Add Music(+): 
         - Title
         - Upload mp3 
-    5. Add Album (+): 
+    - Add Album (+): 
         - Image 
         - URL (commander) 
 
