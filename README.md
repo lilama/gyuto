@@ -43,7 +43,7 @@ export const videos = [
             fr: "",
             en: "",
         }],
-        legende: [{
+        legend: [{
             fr: "",
             en: "",
         }],
