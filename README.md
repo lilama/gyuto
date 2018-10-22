@@ -4,6 +4,12 @@
 
 > « To hear the sound of the ocean in the Himalayas… This unlikely wish takes a film director and her three curious girls to Gyuto, a Tibetan Buddhist monastery echoing day and night the sacred tantric chants of meditation, which the monks say, “sound like the waves of the ocean" » 
 
+## Config
+- NPM version 6.4
+- PHP version 7.2
+- LARAVEL 5.6
+- SASS : ```node-sass style.scss style.css -w```
+
 ## Architecture
 ![architecture](architecture.png)
 
