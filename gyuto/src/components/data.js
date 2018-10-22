@@ -1,4 +1,9 @@
-export const video = [
+export const login = [{
+    user: "",
+    password: ""
+}],
+
+export const videos = [
     {
         id: "",
         title: [{
@@ -6,17 +11,21 @@ export const video = [
             en: "",
         }],
         type: "",
-        quote_fr: "",
-        quote_en: "",
-        legend_fr: "",
-        legend_en: "",
+        quote: [{
+            fr: "",
+            en: "",
+        }],
+        legende: [{
+            fr: "",
+            en: "",
+        }],
         url: "",
         gif: "",
         duration: ""
     }
 ]
 
-export const event = [
+export const events = [
     {
         id: "",
         title: [{
@@ -26,8 +35,10 @@ export const event = [
         date: "",
         hour: "",
         place: "",
-        description_fr: "",
-        description_en: "",
+        description: [{
+            fr: "",
+            en: "",
+        }],
         url: "",
     }
 ]
@@ -42,9 +53,11 @@ export const images = [
         date: "",
         cover: "",
         images: [{
-            description_fr: "",
-            description_en: "",
-            images: [""]
+            description: [{
+                fr: "",
+                en: "",
+            }],
+            files: [""]
 
         }],
     }
@@ -52,35 +65,158 @@ export const images = [
 
 export const musique = [
     {
-        id: "",
         video_url: "",
         title: [{
             fr: "",
             en: "",
         }],
         description: [{
-            images: "",
+            images: [""],
             text: [{
                 fr: "",
                 en: "",
             }],
         }],
-        initials: "B",
-        area: "Brussels",
-        skills: "Human Ressources",
-        type: "coaching",
-        duration: "8h"
+        musiques: [{
+            id: "",
+            title: "",
+            file: ""
+        }],
+        albums: [{
+            id: "",
+            image: "",
+            url_order: ""
+        }],
     }
 ]
 
 export const info = [
     {
-        date: "01-09-2018",
-        name: "Becode",
-        initials: "B",
-        area: "Brussels",
-        skills: "Human Ressources",
-        type: "coaching",
-        duration: "8h"
+        synopsis: [{
+            images: [""],
+            text: [{
+                fr: "",
+                en: "",
+            }],
+        }],
+        projet_genesis: [{
+            images: [""],
+            text: [{
+                fr: "",
+                en: "",
+            }],
+        }],
+        note_of_intent: [{
+            images: [""],
+            text: [{
+                fr: "",
+                en: "",
+            }],
+        }],
+        note_of_production: [{
+            images: [""],
+            text: [{
+                fr: "",
+                en: "",
+            }],
+            proximity: [{
+                images: [""],
+                text: [{
+                    fr: "",
+                    en: "",
+                }],
+            }],
+            buddhism: [{
+                images: [""],
+                text: [{
+                    fr: "",
+                    en: "",
+                }],
+                dharma: [{
+                    images: [""],
+                    text: [{
+                        fr: "",
+                        en: "",
+                    }],
+                }],
+                sangha: [{
+                    images: [""],
+                    text: [{
+                        fr: "",
+                        en: "",
+                    }],
+                }],
+                impermanence: [{
+                    images: [""],
+                    text: [{
+                        fr: "",
+                        en: "",
+                    }],
+                }],
+                dalai_lama: [{
+                    images: [""],
+                    text: [{
+                        fr: "",
+                        en: "",
+                    }],
+                }]
+            }],
+            sound_of_gyuto: [{
+                images: [""],
+                text: [{
+                    fr: "",
+                    en: "",
+                }],
+            }],
+            parables: [{
+                images: [""],
+                text: [{
+                    fr: "",
+                    en: "",
+                }],
+            }],
+            girls_notebooks: [{
+                images: [""],
+                text: [{
+                    fr: "",
+                    en: "",
+                }],
+            }],
+            gestures_of_rituals: [{
+                images: [""],
+                text: [{
+                    fr: "",
+                    en: "",
+                }],
+            }],
+            characters: [{
+                images: [""],
+                text: [{
+                    fr: "",
+                    en: "",
+                }],
+            }]
+        }],
+        place_description: [{
+            images: [""],
+            text: [{
+                fr: "",
+                en: "",
+            }],
+        }],
+        cv: [{
+            images: [""],
+            text: [{
+                fr: "",
+                en: "",
+            }],
+        }],
+        credits: [{
+            images: [""],
+            text: [{
+                fr: "",
+                en: "",
+            }],
+        }]
     }
 ]
