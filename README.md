@@ -11,10 +11,10 @@
 - SASS : ```node-sass style.scss style.css -w```
 
 ## Architecture
-![architecture](architecture.png)
+![architecture](assets/design/architecture.png)
 
 ## Mockup
-![desktop](desktop.png)
+![desktop](assets/design/desktop.png)
 - [Desktop](https://xd.adobe.com/view/d3ba2b44-66c5-4626-4281-8233dd7db86c-a58b/?fullscreen)
 
 ## Team
