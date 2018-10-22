@@ -25,66 +25,231 @@
 
 
 ## Back-end
-- **Admin Login:** 
-    - User 
-    - Pwd
+```
+export const login = [{
+    user: "",
+    password: ""
+}],
 
-- **Add Video:** 
-    - Title:
-        - FR 
-        - EN
-    - Type (select) 
-    - Citation:
-        - FR 
-        - EN
-    - Légende:
-        - FR 
-        - EN 
-    - URL video 
-    - Gif 
-    - Duration
+export const videos = [
+    {
+        id: "",
+        title: [{
+            fr: "",
+            en: "",
+        }],
+        type: "",
+        quote: [{
+            fr: "",
+            en: "",
+        }],
+        legend: [{
+            fr: "",
+            en: "",
+        }],
+        url: "",
+        gif: "",
+        duration: ""
+    }
+]
 
-- **Add Event:** 
-    - Title:
-        - FR 
-        - EN
-    - Date -> *Convert to text (FR / EN)* 
-    - Hour -> *Convert to text (FR / EN)* 
-    - Lieu 
-    - Description:
-        - FR 
-        - EN
-    - URL page event
+export const events = [
+    {
+        id: "",
+        title: [{
+            fr: "",
+            en: "",
+        }],
+        date: "",
+        hour: "",
+        place: "",
+        description: [{
+            fr: "",
+            en: "",
+        }],
+        url: "",
+    }
+]
 
-- **Add Images:** 
-    - Galerie Name:
-        - FR 
-        - EN
-    - Date (select month + year) 
-    - Galerie Cover (img) 
-    - Galerie Images:
-        - Image
-        - FR 
-        - EN
+export const images = [
+    {
+        id: "",
+        title: [{
+            fr: "",
+            en: "",
+        }],
+        date: "",
+        cover: "",
+        images: [{
+            description: [{
+                fr: "",
+                en: "",
+            }],
+            files: [""]
 
-- **Add Music**: 
-    - Video (URL) 
-    - Title:
-        - FR 
-        - EN
-    - Description: 
-        - Images
-        - Texte: 
-            - FR
-            - EN
-    - Add Music(+): 
-        - Title
-        - Upload mp3 
-    - Add Album (+): 
-        - Image 
-        - URL (commander) 
+        }],
+    }
+]
 
-- **Add Info**: *coming soon*
+export const musique = [
+    {
+        video_url: "",
+        title: [{
+            fr: "",
+            en: "",
+        }],
+        description: [{
+            images: [""],
+            text: [{
+                fr: "",
+                en: "",
+            }],
+        }],
+        musiques: [{
+            id: "",
+            title: "",
+            file: ""
+        }],
+        albums: [{
+            id: "",
+            image: "",
+            url_order: ""
+        }],
+    }
+]
+
+export const info = [
+    {
+        synopsis: [{
+            images: [""],
+            text: [{
+                fr: "",
+                en: "",
+            }],
+        }],
+        projet_genesis: [{
+            images: [""],
+            text: [{
+                fr: "",
+                en: "",
+            }],
+        }],
+        note_of_intent: [{
+            images: [""],
+            text: [{
+                fr: "",
+                en: "",
+            }],
+        }],
+        note_of_production: [{
+            images: [""],
+            text: [{
+                fr: "",
+                en: "",
+            }],
+            proximity: [{
+                images: [""],
+                text: [{
+                    fr: "",
+                    en: "",
+                }],
+            }],
+            buddhism: [{
+                images: [""],
+                text: [{
+                    fr: "",
+                    en: "",
+                }],
+                dharma: [{
+                    images: [""],
+                    text: [{
+                        fr: "",
+                        en: "",
+                    }],
+                }],
+                sangha: [{
+                    images: [""],
+                    text: [{
+                        fr: "",
+                        en: "",
+                    }],
+                }],
+                impermanence: [{
+                    images: [""],
+                    text: [{
+                        fr: "",
+                        en: "",
+                    }],
+                }],
+                dalai_lama: [{
+                    images: [""],
+                    text: [{
+                        fr: "",
+                        en: "",
+                    }],
+                }]
+            }],
+            sound_of_gyuto: [{
+                images: [""],
+                text: [{
+                    fr: "",
+                    en: "",
+                }],
+            }],
+            parables: [{
+                images: [""],
+                text: [{
+                    fr: "",
+                    en: "",
+                }],
+            }],
+            girls_notebooks: [{
+                images: [""],
+                text: [{
+                    fr: "",
+                    en: "",
+                }],
+            }],
+            gestures_of_rituals: [{
+                images: [""],
+                text: [{
+                    fr: "",
+                    en: "",
+                }],
+            }],
+            characters: [{
+                images: [""],
+                text: [{
+                    fr: "",
+                    en: "",
+                }],
+            }]
+        }],
+        place_description: [{
+            images: [""],
+            text: [{
+                fr: "",
+                en: "",
+            }],
+        }],
+        cv: [{
+            images: [""],
+            text: [{
+                fr: "",
+                en: "",
+            }],
+        }],
+        credits: [{
+            images: [""],
+            text: [{
+                fr: "",
+                en: "",
+            }],
+        }]
+    }
+]
+````
+
 
 
 ## Technologies
