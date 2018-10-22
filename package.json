@@ -1,0 +1,19 @@
+{
+  "name": "gyuto",
+  "version": "1.0.0",
+  "description": "![img](http://www.gyuto-movie.com/images/synopsis-image.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroseromenho/gyuto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedroseromenho/gyuto/issues"
+  },
+  "homepage": "https://github.com/pedroseromenho/gyuto#readme"
+}
