@@ -2098,4 +2098,13 @@
     --columnGap: 2rem;
   }
 }
+
+.column {
+  background-color: lightgray;
+  margin: 20px;
+}
+
+.column:nth-child(even) {
+  background-color: #ff8282;
+}
 /*# sourceMappingURL=style.css.map */
