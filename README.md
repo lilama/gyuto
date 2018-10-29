@@ -4,6 +4,35 @@
 
 > « To hear the sound of the ocean in the Himalayas… This unlikely wish takes a film director and her three curious girls to Gyuto, a Tibetan Buddhist monastery echoing day and night the sacred tantric chants of meditation, which the monks say, “sound like the waves of the ocean" » 
 
+## Retro Planning
+
+**Semaine du 29 - 02**
+- **Pedro :** Footer / NavBar / bouttons / Page Play Video / Page Intro
+- **Baptiste:** Intégration Page Images / Page Images Details
+- **Liliane + Pedro:** Fichier JSON correct
+- ~~**Geoffrey:** Screen Splash~~
+- **Geoffrey:** 77 points mandala
+
+
+**Semaine du 05 - 09**
+- **Pedro:** Page Doc List / Page Home / Page Musique
+- **Baptiste:** Intégration Page Events / Page Events Details / Page Info
+- **Geoffrey:** Animations mandala
+- **Pedro:** Symboles 
+- **Liliane:** Ébauche de BD
+(- Geoffrey: Iframe Mandala)
+
+**Semaine du 12 - 16**
+- **Liliane:** Relier / Tester BD API
+
+**Semaine du 19 - 23**
+- Début du déploiment
+- Mandala fini.
+
+**Semaine du 26 - 30**
+- Mise en ligne
+- Réglage de bugs
+
 ## Config
 - NPM version 6.4
 - PHP version 7.2
