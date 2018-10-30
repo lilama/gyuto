@@ -46,6 +46,11 @@
 ![desktop](assets/design/desktop.png)
 - [Desktop](https://xd.adobe.com/view/d3ba2b44-66c5-4626-4281-8233dd7db86c-a58b/?fullscreen)
 
+## 77 points du mandala 
+
+![77points](assets/mandala-svg/77points.png)
+
+
 ## Team
 - Back-end [Liliane Mamane](https://github.com/lilama)
 - Full Stack [Geoffrey Poelmans](https://github.com/geoffrey-poelmans)
