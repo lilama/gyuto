@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { events } from "../data";
-import Event from "./Event";
+import Event from "./assets/Event";
 
 class PageEvents extends Component {
   render() {
