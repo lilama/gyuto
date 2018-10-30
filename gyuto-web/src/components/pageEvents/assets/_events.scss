@@ -1,0 +1,23 @@
+.parent {
+  overflow: hidden;
+  padding: 0;
+  margin: 20px;
+}
+
+.child {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+
+  &:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+}

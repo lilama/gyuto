@@ -8,7 +8,11 @@ class PageEvents extends Component {
       return <Event key={event.id} eventObject={event} />;
     });
 
-    return <div className="columns">{listEvents}</div>;
+    return (
+      <div className="container">
+        <div className="columns is-multiline">{listEvents}</div>
+      </div>
+    );
   }
 }
 
