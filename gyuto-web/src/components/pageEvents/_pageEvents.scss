@@ -1,7 +1,1 @@
-.column {
-  background-color: lightgray;
-  margin: 20px;
-  &:nth-child(even) {
-    background-color: rgb(255, 130, 130);
-  }
-}
+@import "./assets/events";

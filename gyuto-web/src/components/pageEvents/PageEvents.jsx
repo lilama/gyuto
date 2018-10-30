@@ -1,14 +1,14 @@
 import React, { Component } from "react";
+import { events } from "../data";
+import Event from "./Event";
 
 class PageEvents extends Component {
   render() {
-    return (
-      <div className="columns">
-        <div className="column">1</div>
-        <div className="column">2</div>
-        <div className="column">3</div>
-      </div>
-    );
+    const listEvents = events.map(event => {
+      return <Event key={event.id} eventObject={event} />;
+    });
+
+    return <div className="columns">{listEvents}</div>;
   }
 }
 
