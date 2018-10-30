@@ -1,222 +1,359 @@
-export const login = [{
+export const login = [
+  {
     user: "",
     password: ""
-}],
+  }
+];
 
 export const videos = [
-    {
-        id: "",
-        title: [{
-            fr: "",
-            en: "",
-        }],
-        type: "",
-        quote: [{
-            fr: "",
-            en: "",
-        }],
-        legend: [{
-            fr: "",
-            en: "",
-        }],
-        url: "",
-        gif: "",
-        duration: ""
-    }
-]
+  {
+    id: "",
+    title: [
+      {
+        fr: "",
+        en: ""
+      }
+    ],
+    type: "",
+    quote: [
+      {
+        fr: "",
+        en: ""
+      }
+    ],
+    legend: [
+      {
+        fr: "",
+        en: ""
+      }
+    ],
+    url: "",
+    gif: "",
+    duration: ""
+  }
+];
 
 export const events = [
-    {
-        id: "",
-        title: [{
-            fr: "",
-            en: "",
-        }],
-        date: "",
-        hour: "",
-        place: "",
-        description: [{
-            fr: "",
-            en: "",
-        }],
-        url: "",
-    }
-]
+  {
+    id: "1",
+    title: [
+      {
+        fr: "blabla",
+        en: "bloblo"
+      }
+    ],
+    date: "10-02-2017",
+    hour: "11:00",
+    place: "Brussels",
+    description: [
+      {
+        fr: "blablibloubloblurp",
+        en: "blablibloubloblurp"
+      }
+    ],
+    url: "https://picsum.photos/200/400?random"
+  },
+  {
+    id: "2",
+    title: [
+      {
+        fr: "Prière",
+        en: "Prayer"
+      }
+    ],
+    date: "10-02-2017",
+    hour: "11:00",
+    place: "London",
+    description: [
+      {
+        fr: "La prière du matin par un moine",
+        en: "Prayer of a monk in the morning"
+      }
+    ],
+    url: "https://picsum.photos/200/400?random"
+  },
+  {
+    id: "3",
+    title: [
+      {
+        fr: "Jeux",
+        en: "Game"
+      }
+    ],
+    date: "10-02-2017",
+    hour: "11:00",
+    place: "India",
+    description: [
+      {
+        fr: "Jeux avec des enfants",
+        en: "Games with children"
+      }
+    ],
+    url: "https://picsum.photos/200/400?random"
+  }
+];
 
 export const images = [
-    {
-        id: "",
-        title: [{
+  {
+    id: "",
+    title: [
+      {
+        fr: "",
+        en: ""
+      }
+    ],
+    date: "",
+    cover: "",
+    images: [
+      {
+        description: [
+          {
             fr: "",
-            en: "",
-        }],
-        date: "",
-        cover: "",
-        images: [{
-            description: [{
-                fr: "",
-                en: "",
-            }],
-            files: [""]
-
-        }],
-    }
-]
+            en: ""
+          }
+        ],
+        files: [""]
+      }
+    ]
+  }
+];
 
 export const musique = [
-    {
-        video_url: "",
-        title: [{
+  {
+    video_url: "",
+    title: [
+      {
+        fr: "",
+        en: ""
+      }
+    ],
+    description: [
+      {
+        images: [""],
+        text: [
+          {
             fr: "",
-            en: "",
-        }],
-        description: [{
-            images: [""],
-            text: [{
-                fr: "",
-                en: "",
-            }],
-        }],
-        musiques: [{
-            id: "",
-            title: "",
-            file: ""
-        }],
-        albums: [{
-            id: "",
-            image: "",
-            url_order: ""
-        }],
-    }
-]
+            en: ""
+          }
+        ]
+      }
+    ],
+    musiques: [
+      {
+        id: "",
+        title: "",
+        file: ""
+      }
+    ],
+    albums: [
+      {
+        id: "",
+        image: "",
+        url_order: ""
+      }
+    ]
+  }
+];
 
 export const info = [
-    {
-        synopsis: [{
+  {
+    synopsis: [
+      {
+        images: [""],
+        text: [
+          {
+            fr: "",
+            en: ""
+          }
+        ]
+      }
+    ],
+    projet_genesis: [
+      {
+        images: [""],
+        text: [
+          {
+            fr: "",
+            en: ""
+          }
+        ]
+      }
+    ],
+    note_of_intent: [
+      {
+        images: [""],
+        text: [
+          {
+            fr: "",
+            en: ""
+          }
+        ]
+      }
+    ],
+    note_of_production: [
+      {
+        images: [""],
+        text: [
+          {
+            fr: "",
+            en: ""
+          }
+        ],
+        proximity: [
+          {
             images: [""],
-            text: [{
+            text: [
+              {
                 fr: "",
-                en: "",
-            }],
-        }],
-        projet_genesis: [{
+                en: ""
+              }
+            ]
+          }
+        ],
+        buddhism: [
+          {
             images: [""],
-            text: [{
+            text: [
+              {
                 fr: "",
-                en: "",
-            }],
-        }],
-        note_of_intent: [{
+                en: ""
+              }
+            ],
+            dharma: [
+              {
+                images: [""],
+                text: [
+                  {
+                    fr: "",
+                    en: ""
+                  }
+                ]
+              }
+            ],
+            sangha: [
+              {
+                images: [""],
+                text: [
+                  {
+                    fr: "",
+                    en: ""
+                  }
+                ]
+              }
+            ],
+            impermanence: [
+              {
+                images: [""],
+                text: [
+                  {
+                    fr: "",
+                    en: ""
+                  }
+                ]
+              }
+            ],
+            dalai_lama: [
+              {
+                images: [""],
+                text: [
+                  {
+                    fr: "",
+                    en: ""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        sound_of_gyuto: [
+          {
             images: [""],
-            text: [{
+            text: [
+              {
                 fr: "",
-                en: "",
-            }],
-        }],
-        note_of_production: [{
+                en: ""
+              }
+            ]
+          }
+        ],
+        parables: [
+          {
             images: [""],
-            text: [{
+            text: [
+              {
                 fr: "",
-                en: "",
-            }],
-            proximity: [{
-                images: [""],
-                text: [{
-                    fr: "",
-                    en: "",
-                }],
-            }],
-            buddhism: [{
-                images: [""],
-                text: [{
-                    fr: "",
-                    en: "",
-                }],
-                dharma: [{
-                    images: [""],
-                    text: [{
-                        fr: "",
-                        en: "",
-                    }],
-                }],
-                sangha: [{
-                    images: [""],
-                    text: [{
-                        fr: "",
-                        en: "",
-                    }],
-                }],
-                impermanence: [{
-                    images: [""],
-                    text: [{
-                        fr: "",
-                        en: "",
-                    }],
-                }],
-                dalai_lama: [{
-                    images: [""],
-                    text: [{
-                        fr: "",
-                        en: "",
-                    }],
-                }]
-            }],
-            sound_of_gyuto: [{
-                images: [""],
-                text: [{
-                    fr: "",
-                    en: "",
-                }],
-            }],
-            parables: [{
-                images: [""],
-                text: [{
-                    fr: "",
-                    en: "",
-                }],
-            }],
-            girls_notebooks: [{
-                images: [""],
-                text: [{
-                    fr: "",
-                    en: "",
-                }],
-            }],
-            gestures_of_rituals: [{
-                images: [""],
-                text: [{
-                    fr: "",
-                    en: "",
-                }],
-            }],
-            characters: [{
-                images: [""],
-                text: [{
-                    fr: "",
-                    en: "",
-                }],
-            }]
-        }],
-        place_description: [{
+                en: ""
+              }
+            ]
+          }
+        ],
+        girls_notebooks: [
+          {
             images: [""],
-            text: [{
+            text: [
+              {
                 fr: "",
-                en: "",
-            }],
-        }],
-        cv: [{
+                en: ""
+              }
+            ]
+          }
+        ],
+        gestures_of_rituals: [
+          {
             images: [""],
-            text: [{
+            text: [
+              {
                 fr: "",
-                en: "",
-            }],
-        }],
-        credits: [{
+                en: ""
+              }
+            ]
+          }
+        ],
+        characters: [
+          {
             images: [""],
-            text: [{
+            text: [
+              {
                 fr: "",
-                en: "",
-            }],
-        }]
-    }
-]
+                en: ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    place_description: [
+      {
+        images: [""],
+        text: [
+          {
+            fr: "",
+            en: ""
+          }
+        ]
+      }
+    ],
+    cv: [
+      {
+        images: [""],
+        text: [
+          {
+            fr: "",
+            en: ""
+          }
+        ]
+      }
+    ],
+    credits: [
+      {
+        images: [""],
+        text: [
+          {
+            fr: "",
+            en: ""
+          }
+        ]
+      }
+    ]
+  }
+];
