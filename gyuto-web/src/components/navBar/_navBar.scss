@@ -1,0 +1,10 @@
+@import "./assets/logo/logo";
+@import "./assets/navigation/navigation";
+
+.navbar{
+    font-family: $font-content; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

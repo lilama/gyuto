@@ -90,7 +90,27 @@ export const events = [
       }
     ],
     url: "https://picsum.photos/200/400?random"
+  },
+  {
+    id: "3",
+    title: [
+      {
+        fr: "Jeux",
+        en: "Game"
+      }
+    ],
+    date: "10-02-2017",
+    hour: "11:00",
+    place: "India",
+    description: [
+      {
+        fr: "Jeux avec des enfants",
+        en: "Games with children"
+      }
+    ],
+    url: "https://picsum.photos/200/400?random"
   }
+
 ];
 
 export const images = [

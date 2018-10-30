@@ -1,0 +1,26 @@
+$color-white: #ffffff;
+$color-black: #000000;
+
+@font-face {
+    font-family: 'Begum-Medium';
+    src: url('fonts/Begum-Medium.otf') format('otf');
+  }
+
+  @font-face {
+    font-family: 'Begum-Regular';
+    src: url('fonts/Begum-Regular.otf') format('otf');
+  }
+
+$font-content: 'Begum-Regular', sans-serif;
+$font-heading: 'Begum-Medium', sans-serif;
+
+$max-width: 1160px;
+// $padding-default-value: 96px;
+// $space-between-section: 420px;
+
+$smartphone-size: 840px;
+
+$pc: "screen and (min-width: "+ $smartphone-size + ")";
+$smartphone: "screen and (max-width: "+ $smartphone-size + ")";
+$smartphone-h: $smartphone + " and (orientation: landscape)";
+$smartphone-v: $smartphone + " and (orientation: portrait)";
