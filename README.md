@@ -134,9 +134,11 @@
       "id": "",
       "title": "",
       "url_order": "",
-      "musics": {
-        "url": "",
-        "title": ""
+      "music_list": {
+        "music": {
+          "url": "",
+          "title": ""
+        }
       }
     }
   },
