@@ -8,7 +8,7 @@ class Navigation extends Component {
                 <li><a href="#">Musique</a></li>
                 <li><a href="#">Images</a></li>
                 <li><a href="#">Événements</a></li>
-                <li className="language"><a href="#">FR</a></li>
+                <li><a href="#">FR</a></li>
             </ul>
         );
     }

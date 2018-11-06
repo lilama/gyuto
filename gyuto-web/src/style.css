@@ -18,6 +18,31 @@
   font-size: 1px;
 }
 
+.containerFooterNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  float: right;
+}
+
+.containerFooterNav li {
+  font-size: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.containerFooterNav li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Begum-Regular", sans-serif;
+}
+
+.containerFooterNav li:nth-child(2)::before {
+  content: "/";
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .containerLogo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,12 +91,7 @@
   margin-left: 15px;
 }
 
-.menu li a {
-  text-decoration: none;
-  color: black;
-}
-
-.menu li.language {
+.menu li:last-child {
   font-size: 0.7rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -81,13 +101,18 @@
           align-items: center;
 }
 
-.menu li.language::after {
+.menu li:last-child::after {
   background-image: url("./chevron-down-solid.svg");
   background-size: 5px 10px;
   width: 5px;
   height: 10px;
   content: "";
   margin-left: 3px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
 }
 
 .navbar {
