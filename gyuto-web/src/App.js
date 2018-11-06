@@ -8,6 +8,7 @@ import Footer from "./components/footer/Footer";
 import PageImages from "./components/pageImages/PageImages";
 import PageInfo from "./components/pageInfo/PageInfo";
 import PageMusique from "./components/pageMusique/PageMusique";
+import PageDoclist from "./components/pageDocList/PageDocList";
 
 class App extends Component {
   constructor(props) {
@@ -30,6 +31,7 @@ class App extends Component {
             <Route path="/pageMusique" component={PageMusique} />
             <Route path="/pageEvents" component={PageEvents} />
             <Route path="/pageImages" component={PageImages} />
+            <Route path="/pageDocList" component={PageDoclist} />
           </Switch>
           <div style={backgroundColor}>
             <Footer />
