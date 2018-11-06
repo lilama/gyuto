@@ -12,16 +12,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.containerFooterNav li {
-  font-size: 1px;
-}
-
-.containerFooterNav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   list-style: none;
   float: right;
 }
@@ -55,6 +45,11 @@
 .containerLogo .logo {
   font-family: "Begum-Medium", sans-serif;
   font-size: 2rem;
+}
+
+.containerLogo .logo a {
+  text-decoration: none;
+  color: black;
 }
 
 .containerLogo .pageName {
@@ -157,8 +152,8 @@
   height: 550px;
   background-position: center;
   background-size: cover;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -198,6 +193,11 @@
 .container a .child .text p {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.row {
+  max-width: 1200px;
+  margin: auto !important;
 }
 
 * {
