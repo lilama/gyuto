@@ -1,11 +1,21 @@
 @font-face {
-  font-family: 'Begum-Medium';
-  src: url("fonts/Begum-Medium.otf") format("otf");
+  font-family: "Begum-Medium";
+  src: url("./fonts/Begum-Medium.otf") format("otf");
 }
 
 @font-face {
-  font-family: 'Begum-Regular';
-  src: url("fonts/Begum-Regular.otf") format("otf");
+  font-family: "Begum-Regular";
+  src: url("./fonts/Begum-Regular.otf") format("otf");
+}
+
+.containerFooterNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.containerFooterNav li {
+  font-size: 1px;
 }
 
 .containerLogo {
@@ -165,17 +175,22 @@
   margin-bottom: 5px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-top: 15px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 15px;
 }
 
 @media screen and (max-width: 840px) {
   .App {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
   }
 }
 
@@ -184,5 +199,10 @@
     padding-left: 7px;
     padding-right: 7px;
   }
+}
+
+.App .sticky {
+  position: -webkit-sticky;
+  position: sticky;
 }
 /*# sourceMappingURL=style.css.map */
