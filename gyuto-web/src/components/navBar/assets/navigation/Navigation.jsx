@@ -4,11 +4,11 @@ class Navigation extends Component {
     render() {
         return (
             <ul className="menu">
-                <li>Info</li>
-                <li>Musique</li>
-                <li>Images</li>
-                <li>Événements</li>
-                <li className="language">FR</li>
+                <li><a href="#">Info</a></li>
+                <li><a href="#">Musique</a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="#">Événements</a></li>
+                <li className="language"><a href="#">FR</a></li>
             </ul>
         );
     }

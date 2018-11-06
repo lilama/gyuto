@@ -12,7 +12,7 @@ export const introduction = {
   }
 };
 
-export const videos = {
+export const videos = [{
   id: "",
   title: {
     fr: "",
@@ -29,45 +29,119 @@ export const videos = {
   },
   url: "",
   gif: ""
-};
+}];
 
-export const events = {
-  id: "",
-  title: {
-    fr: "",
-    en: ""
-  },
+export const events = [{
+  id: "0",
+  title: "Festival Cinéma du Réel",
   date: {
-    start: "",
-    end: "",
+    start: "10-09-2018",
+    end: "11-09-2018",
   },
   hour: {
-    start: "",
-    end: "",
+    start: "18h00",
+    end: "19h00",
   },
   adress: {
-    number: "",
-    street: "",
-    zipcode: "",
-    country: "",
-    city: ""
+    place: "Cinema Galeries",
+    number: "50",
+    street: "rue Joseph Claes",
+    zipcode: "1060",
+    city: "Brussels",
+    country: "Belgium"
   },
   description: {
-    fr: "",
-    en: ""
+    fr: "Search for the keywords to learn more about each warning.",
+    en: "Search for the keywords to learn more about each warning."
   },
-  image: ""
+  image: "https://picsum.photos/800/900?random"
 },
+{
+  id: "1",
+  title: "Festival Cinéma du Réel",
+  date: {
+    start: "10-09-2018",
+    end: "11-09-2018",
+  },
+  hour: {
+    start: "18h00",
+    end: "19h00",
+  },
+  adress: {
+    place: "Cinema Galeries",
+    number: "50",
+    street: "rue Joseph Claes",
+    zipcode: "1060",
+    city: "Brussels",
+    country: "Belgium"
+  },
+  description: {
+    fr: "Search for the keywords to learn more about each warning.",
+    en: "Search for the keywords to learn more about each warning."
+  },
+  image: "https://picsum.photos/400/600?random"
+},
+{
+  id: "1",
+  title: "Festival Cinéma du Réel",
+  date: {
+    start: "10-09-2018",
+    end: "11-09-2018",
+  },
+  hour: {
+    start: "18h00",
+    end: "19h00",
+  },
+  adress: {
+    place: "Cinema Galeries",
+    number: "50",
+    street: "rue Joseph Claes",
+    zipcode: "1060",
+    city: "Brussels",
+    country: "Belgium"
+  },
+  description: {
+    fr: "Search for the keywords to learn more about each warning.",
+    en: "Search for the keywords to learn more about each warning."
+  },
+  image: "https://picsum.photos/300/500?random"
+},
+{
+  id: "1",
+  title: "Festival Cinéma du Réel",
+  date: {
+    start: "10-09-2018",
+    end: "11-09-2018",
+  },
+  hour: {
+    start: "18h00",
+    end: "19h00",
+  },
+  adress: {
+    place: "Cinema Galeries",
+    number: "50",
+    street: "rue Joseph Claes",
+    zipcode: "1060",
+    city: "Brussels",
+    country: "Belgium"
+  },
+  description: {
+    fr: "Search for the keywords to learn more about each warning.",
+    en: "Search for the keywords to learn more about each warning."
+  },
+  image: "https://picsum.photos/1000/600?random"
+}
+];
 
-
-export const images = {
+export const images = [{
   id: "",
   title: {
     fr: "",
     en: ""
   },
   galery: {
-    image: {
+    image: [{
+      id: "",
       url: "",
       title: {
         fr: "",
@@ -77,10 +151,10 @@ export const images = {
         fr: "",
         en: ""
       }
-    }
+    }]
   },
   cover: ""
-};
+}];
 
 export const musique = {
   video: {
@@ -100,21 +174,19 @@ export const musique = {
       en: ""
     }
   },
-  album: {
+  album: [{
     id: "",
     title: "",
     url_order: "",
-    musics_list: {
-      music: {
-        id: "",
-        url: "",
-        title: ""
-      }
-    }
-  }
+    musics: [{
+      id: "",
+      url: "",
+      title: ""
+    }]
+  }]
 };
 
-export const info = {
+export const info = [{
   id: "",
   title: {
     fr: "",
@@ -133,4 +205,4 @@ export const info = {
       }
     }
   }
-};
+}];

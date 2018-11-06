@@ -1,19 +1,25 @@
 import React, { Component } from "react";
 import { events } from "../data";
 import Event from "./assets/Event";
+import { Row, Col } from 'react-flexbox-grid';
 
 class PageEvents extends Component {
   render() {
     const listEvents = events.map(event => {
-      return <Event key={event.id} eventObject={event} />;
+      return (
+        <Col xs={12} sm={6} md={6} lg={4}>
+          <Event key={event.id} eventObject={event} />
+        </Col>
+      )
     });
 
     return (
-      <div className="container">
-        <div className="columns is-multiline">{listEvents}</div>
-      </div>
+      <Row>
+        {listEvents}
+      </Row>
     )
   }
 }
+
 
 export default PageEvents;

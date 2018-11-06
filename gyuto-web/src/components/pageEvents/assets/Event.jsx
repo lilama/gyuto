@@ -3,12 +3,24 @@ import React, { Component } from "react";
 class Event extends Component {
   render() {
     return (
-      <div className="column is-3">
-        <h3>{this.props.eventObject.title[0].fr}</h3>
-        <img src={this.props.eventObject.url} alt="picture" />
-        <p>{this.props.eventObject.date}</p>
-        <p>{this.props.eventObject.hour}</p>
-        <p>{this.props.eventObject.place}</p>
+      <div className="container">
+        <div className="parent">
+          <a href="#">
+            <div
+              className="child"
+              style={{
+                backgroundImage: `linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("${this.props.eventObject.image}")`,
+              }}
+            >
+              <div className="text">
+                <p>{this.props.eventObject.title},</p>
+                <p>{this.props.eventObject.adress.place},</p>
+                <p>{this.props.eventObject.adress.city}</p>
+                <p>{this.props.eventObject.date.start} > {this.props.eventObject.date.end}</p>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
     );
   }
