@@ -10,24 +10,24 @@
     li{
         margin-left: 15px;
         
+        &:last-child{
+            font-size: 0.7rem;
+            display: flex;
+            align-items: center;
+    
+            &::after{
+                background-image: url('./chevron-down-solid.svg');
+                background-size: 5px 10px;
+                width: 5px; 
+                height: 10px;
+                content:"";
+                margin-left: 3px;
+    
+            }
+        }
         a{
             text-decoration: none;
             color: black;
-        }
-    }
-    li.language{
-        font-size: 0.7rem;
-        display: flex;
-        align-items: center;
-
-        &::after{
-            background-image: url('./chevron-down-solid.svg');
-            background-size: 5px 10px;
-            width: 5px; 
-            height: 10px;
-            content:"";
-            margin-left: 3px;
-
         }
     }
 }
