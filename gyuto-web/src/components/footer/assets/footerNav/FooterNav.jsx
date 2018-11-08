@@ -6,7 +6,7 @@ class FooterNav extends Component {
     return (
       <ul className="containerFooterNav">
         <li>
-          <a href="">Aléatoire</a>
+          <Link to="/">Aléatoire</Link>
         </li>
         <li>
           <Link to="/PageDocList">Doc List</Link>

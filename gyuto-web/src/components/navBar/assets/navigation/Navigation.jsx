@@ -18,7 +18,7 @@ class Navigation extends Component {
           <Link to="/PageEvents">Événements</Link>
         </li>
         <li>
-          <a href="#">FR</a>
+          <Link to="/">FR</Link>
         </li>
       </ul>
     );

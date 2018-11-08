@@ -1,13 +1,30 @@
 import React, { Component } from "react";
+import { events } from "../data";
+import { Row, Col } from "react-flexbox-grid";
 
-class EventDetails extends Component {
+class PageEventDetails extends Component {
   render() {
+    const id = `${this.props.match.params.id}`; // the match.params.id props fetch the id from the URL
+
     return (
-      <div>
-        <h2>EventDetails</h2>
+      <div className="eventDetailsContainer">
+        <h2>{events[id].title}</h2>
+        <h3>
+          Du {events[id].date.start} au {events[id].date.start} de{" "}
+          {events[id].hour.start} à {events[id].hour.end}, à{" "}
+          {events[id].adress.city}
+        </h3>
+        <img src={events[id].image} alt="Event cover" />
+        <p>{events[id].description.fr}</p>
+        <p className="bold">
+          Lieu : {events[id].adress.place} , {events[id].adress.number}{" "}
+          {events[id].adress.street}, {events[id].adress.zipcode}{" "}
+          {events[id].adress.city}, {events[id].adress.country}
+        </p>
+        <a href={events[id].image}>Plus d'information</a>
       </div>
     );
   }
 }
 
-export default EventDetails;
+export default PageEventDetails;

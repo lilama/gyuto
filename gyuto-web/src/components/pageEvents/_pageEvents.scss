@@ -1,6 +1,10 @@
 @import "./assets/events";
 
-.row {
+.eventsRow {
   max-width: 1200px;
   margin: auto !important;
+
+  a {
+    text-decoration: none;
+  }
 }

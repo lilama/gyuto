@@ -9,6 +9,7 @@ import PageImages from "./components/pageImages/PageImages";
 import PageInfo from "./components/pageInfo/PageInfo";
 import PageMusique from "./components/pageMusique/PageMusique";
 import PageDoclist from "./components/pageDocList/PageDocList";
+import PageEventDetails from "./components/pageEventDetails/PageEventDetails";
 
 class App extends Component {
   constructor(props) {
@@ -29,7 +30,8 @@ class App extends Component {
             <Route exact path="/" component={PageHome} />
             <Route path="/pageInfo" component={PageInfo} />
             <Route path="/pageMusique" component={PageMusique} />
-            <Route path="/pageEvents" component={PageEvents} />
+            <Route exact path="/pageEvents" component={PageEvents} />
+            <Route path="/pageEvents/:id" component={PageEventDetails} />
             <Route path="/pageImages" component={PageImages} />
             <Route path="/pageDocList" component={PageDoclist} />
           </Switch>

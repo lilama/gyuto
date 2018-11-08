@@ -5,21 +5,24 @@ class Event extends Component {
     return (
       <div className="container">
         <div className="parent">
-          <a href="#">
-            <div
-              className="child"
-              style={{
-                backgroundImage: `linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("${this.props.eventObject.image}")`,
-              }}
-            >
-              <div className="text">
-                <p>{this.props.eventObject.title},</p>
-                <p>{this.props.eventObject.adress.place},</p>
-                <p>{this.props.eventObject.adress.city}</p>
-                <p>{this.props.eventObject.date.start} > {this.props.eventObject.date.end}</p>
-              </div>
+          <div
+            className="child"
+            style={{
+              backgroundImage: `linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("${
+                this.props.eventObject.image
+              }")`
+            }}
+          >
+            <div className="text">
+              <p>{this.props.eventObject.title},</p>
+              <p>{this.props.eventObject.adress.place},</p>
+              <p>{this.props.eventObject.adress.city}</p>
+              <p>
+                {this.props.eventObject.date.start} >{" "}
+                {this.props.eventObject.date.end}
+              </p>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     );
