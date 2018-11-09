@@ -10,6 +10,7 @@ import PageInfo from "./components/pageInfo/PageInfo";
 import PageMusique from "./components/pageMusique/PageMusique";
 import PageDoclist from "./components/pageDocList/PageDocList";
 import PageEventDetails from "./components/pageEventDetails/PageEventDetails";
+import PageImagesDetails from "./components/pageImagesDetails/PageImagesDetails";
 
 class App extends Component {
   constructor(props) {
@@ -32,7 +33,8 @@ class App extends Component {
             <Route path="/pageMusique" component={PageMusique} />
             <Route exact path="/pageEvents" component={PageEvents} />
             <Route path="/pageEvents/:id" component={PageEventDetails} />
-            <Route path="/pageImages" component={PageImages} />
+            <Route exact path="/pageImages" component={PageImages} />
+            <Route path="/pageImages/:id" component={PageImagesDetails} />
             <Route path="/pageDocList" component={PageDoclist} />
           </Switch>
           <div style={backgroundColor}>

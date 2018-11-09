@@ -4,9 +4,9 @@ class Event extends Component {
   render() {
     return (
       <div className="container">
-        <div className="parent">
+        <div className="parentZoomIn">
           <div
-            className="child"
+            className="childZoomIn"
             style={{
               backgroundImage: `linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("${
                 this.props.eventObject.image

@@ -1,28 +1,29 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 15px;
+  color: $color-black;
+
+  @media #{$smartphone} {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+  }
+
+  .container-fluid {
+    @media #{$smartphone} {
+      padding-left: 7px;
+      padding-right: 7px;
     }
+  }
 
-.App{
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 15px;
-
-    @media#{$smartphone}{
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-top: 0px;
-    }
-
-    .container-fluid{
-        @media#{$smartphone}{
-            padding-left: 7px;
-            padding-right: 7px;
-        }
-    }
-
-    .sticky {
-        position: -webkit-sticky;
-        position: sticky;
-      }
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
 }
