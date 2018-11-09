@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { events } from "../data";
-import { Row, Col } from "react-flexbox-grid";
 
 class PageEventDetails extends Component {
   render() {
@@ -8,12 +7,15 @@ class PageEventDetails extends Component {
 
     return (
       <div className="eventDetailsContainer">
-        <h2>{events[id].title}</h2>
-        <h3>
-          Du {events[id].date.start} au {events[id].date.start} de{" "}
-          {events[id].hour.start} à {events[id].hour.end}, à{" "}
-          {events[id].adress.city}
-        </h3>
+        <div className="headingWrapper">
+          <h2>{events[id].title}</h2>
+          <h3>
+            Du {events[id].date.start} au {events[id].date.start} de{" "}
+            {events[id].hour.start} à {events[id].hour.end}, à{" "}
+            {events[id].adress.city}
+          </h3>
+        </div>
+
         <img src={events[id].image} alt="Event cover" />
         <p>{events[id].description.fr}</p>
         <p className="bold">
