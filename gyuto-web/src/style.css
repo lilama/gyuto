@@ -33,6 +33,12 @@
   margin-right: 5px;
 }
 
+@media screen and (max-width: 840px) {
+  .containerFooterNav {
+    display: none;
+  }
+}
+
 .containerLogo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,9 +53,25 @@
   font-size: 2rem;
 }
 
+@media screen and (max-width: 840px) {
+  .containerLogo .logo {
+    z-index: 1000 !important;
+    mix-blend-mode: difference;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1.7rem;
+  }
+}
+
 .containerLogo .logo a {
   text-decoration: none;
-  color: black;
+  color: #000000;
+}
+
+@media screen and (max-width: 840px) {
+  .containerLogo .logo a {
+    color: #ffffff;
+  }
 }
 
 .containerLogo .pageName {
@@ -57,10 +79,24 @@
   margin-top: 3px;
 }
 
+@media screen and (max-width: 840px) {
+  .containerLogo .pageName {
+    margin-top: 1px;
+    font-size: 0.9rem;
+  }
+}
+
 .containerLogo .pageName::before {
   content: "/";
   margin-left: 5px;
   margin-right: 5px;
+}
+
+@media screen and (max-width: 840px) {
+  .containerLogo .pageName::before {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
 }
 
 .menu {
@@ -73,9 +109,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   width: 30%;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
@@ -110,6 +143,109 @@
   color: black;
 }
 
+.nav-mobile {
+  background: blue;
+}
+
+.nav-mobile .open .side-bar {
+  left: 0;
+}
+
+.nav-mobile .open .menu-toggler .menu-toggler__line {
+  background: #ffffff;
+  height: 2px;
+}
+
+.nav-mobile .open .menu-toggler .menu-toggler__line:nth-child(1) {
+  -webkit-transform-origin: 10% 0%;
+          transform-origin: 10% 0%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.nav-mobile .open .menu-toggler .menu-toggler__line:nth-child(2) {
+  display: none;
+}
+
+.nav-mobile .open .menu-toggler .menu-toggler__line:nth-child(3) {
+  -webkit-transform-origin: -5% 0%;
+          transform-origin: -5% 0%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.menu-toggler {
+  position: fixed;
+  top: 1.2em;
+  right: 1.1em;
+  cursor: pointer;
+  z-index: 1;
+  height: 19px;
+  width: 25px;
+  /* 	position: relative; */
+}
+
+.menu-toggler__line {
+  width: 25px;
+  height: 1.2px;
+  display: block;
+  background: #000000;
+  /*#fff 	 */
+  position: absolute;
+  left: 0;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+
+.menu-toggler__line:nth-child(1) {
+  top: 0px;
+}
+
+.menu-toggler__line:nth-child(2) {
+  margin-top: -1px;
+  top: 50%;
+}
+
+.menu-toggler__line:nth-child(3) {
+  bottom: 0px;
+}
+
+.side-bar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  background: #000000;
+  height: 100%;
+  left: -1000px;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.side-menu {
+  list-style: none;
+  font-size: 2em;
+  text-align: center;
+}
+
+.side-menu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.side-menu__item {
+  margin: 0.5em 0;
+}
+
 .navbar {
   font-family: "Begum-Regular", sans-serif;
   display: -webkit-box;
@@ -125,6 +261,141 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.videoTitle {
+  font-family: "Begum-Regular", sans-serif;
+  border-bottom: 1px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25px;
+}
+
+.videoTitle h3 {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 840px) {
+  .videoTitle h3 {
+    font-size: 1.5rem;
+  }
+}
+
+.videoTitle h3 a {
+  color: #000000;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 840px) {
+  .videoTitle p::after {
+    background-image: url("./chevron-down-solid.svg");
+    background-size: 10px 20px;
+    width: 10px;
+    height: 14px;
+    content: "";
+    margin-left: 10px;
+    display: inline-block;
+  }
+}
+
+.previewContainer {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-family: "Begum-Regular", sans-serif;
+}
+
+.previewContainer .gif {
+  width: 100%;
+  height: 320px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.previewContainer img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.previewContainer h2 {
+  margin-top: 15px;
+  font-family: "Begum-Medium", sans-serif;
+  font-size: 1rem;
+}
+
+.previewContainer p {
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
+
+.animation {
+  -webkit-animation: fadeIn 0.5s ease-out;
+          animation: fadeIn 0.5s ease-out;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.docListPageContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 840px) {
+  .docListPageContainer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.docListPageContainer .docListContainer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: block;
+}
+
+.docListPageContainer .docListContainer .docListCol {
+  padding-left: 0px !important;
+}
+
+.docListPageContainer .previewContainer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: block;
+}
+
+@media screen and (max-width: 840px) {
+  .docListPageContainer .previewContainer {
+    display: none;
+  }
 }
 
 .container {
@@ -213,9 +484,9 @@
 
 @media screen and (max-width: 840px) {
   .App {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
   }
 }
 

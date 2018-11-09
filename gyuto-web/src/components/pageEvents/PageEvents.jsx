@@ -13,6 +13,7 @@ class PageEvents extends Component {
       );
     });
 
+
     return <Row>{listEvents}</Row>;
   }
 }

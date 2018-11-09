@@ -6,9 +6,22 @@
     font-family: $font-heading;
     font-size: 2rem;
 
+    @media #{$smartphone} {
+      z-index: 1000 !important;
+      mix-blend-mode: difference;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;     
+      font-size: 1.7rem;
+    }
+
+
     a {
       text-decoration: none;
-      color: black;
+      color: $color-black;
+
+      @media #{$smartphone} {
+        color: $color-white;
+      }
     }
   }
 
@@ -16,10 +29,20 @@
     font-size: 1.1rem;
     margin-top: 3px;
 
+    @media #{$smartphone} {
+      margin-top: 1px;
+      font-size: 0.9rem;
+    }
+
     &::before {
       content: "/";
       margin-left: 5px;
       margin-right: 5px;
+
+      @media #{$smartphone} {
+        margin-left: 3px;
+        margin-right: 3px;
+      }
     }
   }
 }

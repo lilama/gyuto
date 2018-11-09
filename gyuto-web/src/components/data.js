@@ -6,29 +6,73 @@ export const admin = {
 
 export const introduction = {
   url: "",
+  gif: "https://picsum.photos/800/500?random",
+  quote: {
+    fr: "Plusieurs versions sont apparues avec le temps, parfois par accident.",
+    en: "Plusieurs versions sont apparues avec le temps, parfois par accident."
+  },
   legend: {
-    fr: "",
-    en: "",
+    fr: "Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire.",
+    en: "Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire.",
   }
 };
 
 export const videos = [{
-  id: "",
+  id: "1",
   title: {
-    fr: "",
-    en: ""
+    fr: "Roots of Tantra",
+    en: "Roots of Tantra"
   },
-  category: "",
+  category: "Interview",
   quote: {
-    fr: "",
-    en: ""
+    fr: "Ici à Gyütö, notre tradition sonore sonne comme les vagues de l’océan",
+    en: "Ici à Gyütö, notre tradition sonore sonne comme les vagues de l’océan"
   },
   legend: {
-    fr: "",
-    en: ""
+    fr: "Interview de l’Abbé et du maitre de chant",
+    en: "Interview de l’Abbé et du maitre de chant"
   },
   url: "",
-  gif: ""
+  gif: "https://picsum.photos/300/200?random",
+  duration: "1'00"
+},
+{
+  id: "2",
+  title: {
+    fr: "The samsara beings 1/4",
+    en: "The samsara beings 1/4"
+  },
+  category: "Interview",
+  quote: {
+    fr: "Ici à Gyütö, notre tradition sonore sonne comme les vagues de l’océan",
+    en: "Ici à Gyütö, notre tradition sonore sonne comme les vagues de l’océan"
+  },
+  legend: {
+    fr: "Interview de l’Abbé et du maitre de chant",
+    en: "Interview de l’Abbé et du maitre de chant"
+  },
+  url: "",
+  gif: "https://picsum.photos/100/900?random",
+  duration: "1'00"
+},
+{
+  id: "3",
+  title: {
+    fr: "The samsara beings 2/4",
+    en: "The samsara beings 2/4"
+  },
+  category: "Interview",
+  quote: {
+    fr: "Ici à Gyütö, notre tradition sonore sonne comme les vagues de l’océan",
+    en: "Ici à Gyütö, notre tradition sonore sonne comme les vagues de l’océan"
+  },
+  legend: {
+    fr: "Interview de l’Abbé et du maitre de chant",
+    en: "Interview de l’Abbé et du maitre de chant"
+  },
+  url: "",
+  gif: "https://picsum.photos/800/600?random",
+  duration: "1'00"
 }];
 
 export const events = [{
